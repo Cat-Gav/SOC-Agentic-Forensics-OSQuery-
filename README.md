@@ -89,4 +89,16 @@ tests/                   # smoke-тесты
 config/                  # пример конфигурации LLM
 ```
 
+## Демонстрация результата
+
+Ниже приведены воспроизводимые примеры отчётов, сформированных прототипом по данным OSQuery.
+Кейсы моделируют реальные техники атак и показывают как детерминированную часть анализа, так и (опционально) работу LLM-агента.
+
+### Набор демонстрационных кейсов
+
+| Кейс | Инструмент/сценарий | MITRE ATT&CK | Что демонстрируется | Отчёт |
+|---|---|---|---|---|
+| Impacket SMBExec | Админ-шары SMB, удалённое выполнение | T1021.002 | Признаки lateral movement по командной строке и сетевым портам | [`impacket_smbexec_report.md`](docs/demo_outputs/impacket_smbexec_report.md) |
+| Impacket WMIExec | Выполнение через WMI | T1047 | Исполнение через WMI и характерные артефакты процесса | [`impacket_wmiexec_report.md`](docs/demo_outputs/impacket_wmiexec_report.md) |
+| Отказ LLM API | 503 / невалидный JSON | — | Корректная деградация: ошибка фиксируется как pipeline-issue, базовый анализ не ломается | [`llm_failure_report.md`](docs/demo_outputs/llm_failure_report.md) |
 

@@ -1,0 +1,12 @@
+{
+  "case": "impacket_wmiexec",
+  "expected_tool": "Impacket",
+  "expected_tactic": "Lateral Movement",
+  "expected_techniques": ["T1047"],
+  "expected_severity": "high",
+  "confidence_range": [0.6, 0.9],
+  "notes": [
+    "Pattern matches wmiexec-style remote command execution via WMI",
+    "May be benign testing depending on environment context"
+  ]
+}

@@ -1,0 +1,8 @@
+[
+  {
+    "name": "SvcHostShell",
+    "path": "C:\\Windows\\System32\\cmd.exe",
+    "user": "NT AUTHORITY\\SYSTEM",
+    "status": "STOPPED"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "pid": 3552,
+    "name": "cmd.exe",
+    "path": "C:\\Windows\\System32\\cmd.exe",
+    "parent": "services.exe",
+    "cmdline": "cmd.exe /Q /c echo whoami ^> \\\\127.0.0.1\\ADMIN$\\__E7F3A9B1 2^>^&1"
+  }
+]

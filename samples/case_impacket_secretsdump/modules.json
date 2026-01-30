@@ -1,0 +1,8 @@
+[
+  {
+    "pid": 1884,
+    "process": "svchost.exe",
+    "module_name": "regsvc.dll",
+    "path": "C:\\Windows\\System32\\regsvc.dll"
+  }
+]

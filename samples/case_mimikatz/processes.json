@@ -1,0 +1,9 @@
+[
+  {
+    "pid": 4920,
+    "name": "powershell.exe",
+    "parent": "cmd.exe",
+    "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "cmdline": "powershell.exe -nop -w hidden -command Invoke-Mimikatz -Command 'sekurlsa::logonpasswords'"
+  }
+]

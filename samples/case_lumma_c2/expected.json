@@ -1,0 +1,13 @@
+{
+  "case": "lumma_c2_paste_and_run",
+  "expected_tool": "LummaC2",
+  "expected_tactic": "Execution / Exfiltration",
+  "expected_techniques": ["T1059.001", "T1041"],
+  "expected_severity": "high",
+  "confidence_range": [0.75, 0.95],
+  "notes": [
+    "Paste-and-run PowerShell execution",
+    "HTTPS-based C2 communication",
+    "Stealer-style staging artifacts"
+  ]
+}

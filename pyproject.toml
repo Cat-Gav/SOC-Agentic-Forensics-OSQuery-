@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "soc-agentic-forensics"
+version = "0.1.0"
+description = "Working concept: disciplined agentic OSQuery endpoint forensics"
+requires-python = ">=3.10"
+dependencies = ["jsonschema>=4.0.0", "requests>=2.31.0"]
+
+[project.scripts]
+soc-af = "soc_agentic_forensics.cli:main"

@@ -1,0 +1,13 @@
+{
+  "case": "impacket_secretsdump",
+  "expected_tool": "Impacket",
+  "expected_tactic": "Credential Access",
+  "expected_techniques": ["T1003"],
+  "expected_severity": "high",
+  "confidence_range": [0.7, 0.95],
+  "notes": [
+    "svchost.exe loading regsvc.dll",
+    "Temporary file artifacts consistent with secretsdump output",
+    "Remote execution context assumed"
+  ]
+}

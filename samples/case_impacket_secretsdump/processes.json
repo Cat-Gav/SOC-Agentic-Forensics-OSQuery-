@@ -1,0 +1,9 @@
+[
+  {
+    "pid": 1884,
+    "name": "svchost.exe",
+    "parent": "services.exe",
+    "path": "C:\\Windows\\System32\\svchost.exe",
+    "cmdline": "svchost.exe -k netsvcs"
+  }
+]

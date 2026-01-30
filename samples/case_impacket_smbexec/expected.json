@@ -1,0 +1,12 @@
+{
+  "case": "impacket_smbexec",
+  "expected_tool": "Impacket",
+  "expected_tactic": "Lateral Movement",
+  "expected_techniques": ["T1021.002"],
+  "expected_severity": "high",
+  "confidence_range": [0.6, 0.9],
+  "notes": [
+    "Pattern matches smbexec-style remote command execution via ADMIN$",
+    "Commonly used by red teams and adversaries"
+  ]
+}

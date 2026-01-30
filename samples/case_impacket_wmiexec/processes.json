@@ -1,0 +1,9 @@
+[
+  {
+    "pid": 4220,
+    "name": "cmd.exe",
+    "path": "C:\\Windows\\System32\\cmd.exe",
+    "parent": "wmiprvse.exe",
+    "cmdline": "cmd.exe /Q /c dir 1> \\\\127.0.0.1\\ADMIN$\\__A1B2C3D4 2>&1"
+  }
+]

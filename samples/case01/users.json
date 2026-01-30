@@ -1,0 +1,17 @@
+[
+  {
+    "username": "Administrator",
+    "uid": "500",
+    "gid": "513"
+  },
+  {
+    "username": "svc_backup",
+    "uid": "1001",
+    "gid": "513"
+  },
+  {
+    "username": "john.doe",
+    "uid": "1002",
+    "gid": "513"
+  }
+]

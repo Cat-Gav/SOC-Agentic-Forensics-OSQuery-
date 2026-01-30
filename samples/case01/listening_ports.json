@@ -1,0 +1,14 @@
+[
+  {
+    "port": 445,
+    "address": "0.0.0.0",
+    "protocol": "tcp",
+    "process": "System"
+  },
+  {
+    "port": 53211,
+    "address": "0.0.0.0",
+    "protocol": "tcp",
+    "process": "payload.exe"
+  }
+]

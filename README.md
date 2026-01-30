@@ -98,7 +98,7 @@ config/                  # пример конфигурации LLM
 
 | Кейс | Инструмент/сценарий | MITRE ATT&CK | Что демонстрируется | Отчёт |
 |---|---|---|---|---|
-| Impacket SMBExec | Админ-шары SMB, удалённое выполнение | T1021.002 | Признаки lateral movement по командной строке и сетевым портам | [`impacket_smbexec_report.md`](docs/demo_outputs/impacket_smbexec_report.md) |
-| Impacket WMIExec | Выполнение через WMI | T1047 | Исполнение через WMI и характерные артефакты процесса | [`impacket_wmiexec_report.md`](docs/demo_outputs/impacket_wmiexec_report.md) |
-| Отказ LLM API | 503 / невалидный JSON | — | Корректная деградация: ошибка фиксируется как pipeline-issue, базовый анализ не ломается | [`llm_failure_report.md`](docs/demo_outputs/llm_failure_report.md) |
+| Impacket SMBExec | Админ-шары SMB, удалённое выполнение | T1021.002 | Признаки lateral movement по командной строке и сетевым портам | [`impacket_smbexec_report.md`](docs/demo_outputs/report_case_impacket_smbexec.md) |
+| Impacket WMIExec | Выполнение через WMI | T1047 | Исполнение через WMI и характерные артефакты процесса | [`impacket_wmiexec_report.md`](docs/demo_outputs/eport_case_impacket_wmiexec.md) |
+
 

@@ -21,8 +21,3 @@ python -m soc_agentic_forensics analyze samples/case_impacket_smbexec \
   --use-api --api-config config/openrouter.json \
   --out out/impacket_smbexec
 ```
-
-## Примечания по безопасности
-
-- Не коммитьте файлы с секретами.
-- Для публичной демонстрации используйте пример конфигурации и передавайте реальные ключи приватно.
